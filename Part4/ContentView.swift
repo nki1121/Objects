@@ -9,11 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Button(action: {
-            
-        }, label: {
-            Text("ボタン")
-        })
+        Image(systemName: "car")
         .padding()
     }
 }
